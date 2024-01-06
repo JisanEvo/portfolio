@@ -1,68 +1,137 @@
-
 /* common style
  */
- body{
+body {
     font-family: 'Open Sans', sans-serif;
- }
- .btn-primary{
+}
+
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0px;
     color: var(--White-Color, #FFF);
-font-family: Open Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-padding: 18px 35px;
- }
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 18px 35px;
+}
+
+.section-title {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.section-discrip {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 /* nav related style */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0px 200px;
 }
 
-.nav-title{
+.nav-title {
     color: var(--Dark-01, #181818);
 
-font-family: Open Sans;
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 
 }
-nav>ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
-color: #474747;
+    color: #474747;
 
 
 }
 
 /* header related style */
-.header{
+.header {
     background: #FFF8F3;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 
 }
-.banner
-{
-    padding: 30px 30px 30px  150px ;
+
+.banner {
+    padding: 30 px 30 px 0 px 150 px;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
-.banner .profile picture{
+
+.banner .profile-picture {
     width: 584px;
-height: 676px;
+    height: 676px;
+    gap: 0px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+/* .banner-discrip{ */
+margin-top: 20px;
+margin-bottom: 0px;
+}
+
+.btn-primary {
+    margin-top: 30 px;
+
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+
+/* main section style */
+
+/* about section */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+margin: 130px 0 ;
 }
